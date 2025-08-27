@@ -77,7 +77,7 @@ if [ "$npm_lifecycle_event" == "preinstall" ]; then
     
     verify_and_clone_if_missing "https://github.com/Brianspha/micro-eth-signer.git" "micro-eth-signer" "main"
     verify_and_clone_if_missing "https://github.com/Brianspha/solidity.git" "solidity" "main"
-    verify_and_clone_if_missing "https://github.com/paritytech/polkadot-sdk.git" "polkadot-sdk" "master"
+    verify_and_clone_if_missing "https://github.com/paritytech/polkadot-sdk.git" "polkadot-sdk" "at/sizes"
     verify_and_clone_if_missing "https://github.com/Brianspha/hardhat-polkadot-trex.git" "hardhat-polkadot" "main"
 
     if [ -d "micro-eth-signer" ]; then
