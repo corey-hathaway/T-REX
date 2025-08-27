@@ -12,8 +12,3 @@
 	path = solidity
 	url = https://github.com/Brianspha/solidity.git
 	branch = main
-
-[submodule "hardhat-polkadot"]
-	path = hardhat-polkadot
-	url = https://github.com/Brianspha/hardhat-polkadot-trex.git
-	branch = main
